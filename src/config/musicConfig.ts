@@ -12,7 +12,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	mode: "local",
 
 	// 默认音量 (0-1)
-	volume: 0.7,
+	volume: 0.4,
 
 	// 播放模式：'list'=列表循环, 'one'=单曲循环, 'random'=随机播放
 	playMode: "list",
@@ -48,10 +48,10 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	local: {
 		playlist: [
 			{
-				name: "使一颗心免于哀伤",
-				artist: "知更鸟 / HOYO-MiX / Chevy",
+				name: "今天拼了",
+				artist: "罗大佑",
 				url: "/assets/music/使一颗心免于哀伤-哼唱.mp3",
-				cover: "/assets/music/cover/109951169585655912.webp",
+				cover: "/assets/music/cover/cover.jpg",
 				lrc: "",
 			},
 		],
