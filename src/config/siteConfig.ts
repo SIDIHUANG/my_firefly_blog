@@ -26,7 +26,7 @@ const pages = resolvePageToggles({
 	// 书签导航页面开关
 	booknav: true,
 	// 哔哩哔哩追番页面开关
-	bilibili: false,
+	bilibili: true,
 	// 番组计划页面开关
 	bangumi: false,
 	// VNDB页面开关
@@ -48,7 +48,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "APA全鹅空的个人博客",
 
 	// 站点 URL
-	site_url: "https://sidihuang.github.io",
+	site_url: "https://sidihuang.com",
 
 	// 站点描述
 	description:
@@ -114,7 +114,7 @@ export const siteConfig: SiteConfig = {
 			type: "image",
 			value: "/assets/images/logo/pu.png",
 			valueDark: "/assets/images/logo/pu.png",
-			alt: "/assets/images/logo/pu.png",
+			alt: "Logo",
 		},
 		// 导航栏标题
 		title: "All Penguin Airline Blog",
